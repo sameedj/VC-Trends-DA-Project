@@ -1,4 +1,4 @@
-# VC-Trends-DA-Project
+# VC Unicorns Trends Analysis
 
 # Summary and Overview
 
@@ -10,4 +10,17 @@ Minimal data cleaning and editing was required. With Excel I made sure that blan
 
 The questions and their direct answers are shown below with the official SQL code included in their separate repository files which could be found in the main repository site.
 
-# Questions
+# Analysis Questions
+1. The Fed raised interest rates in March 2022, the data goes to Sept 2022. Was there an increasing/decreasing trend in funding?
+
+| Pre-Hike Average Valuation | Post-Hike Average Valuation |
+| :-----: | :---: |
+| 2.02 | 1.58   |
+
+This query proved that there was a difference in average valuations starting March 2022 which was the first month in which the Fed started to raise the federal funds rate compared to the average valuations of companies before the hikes began.
+
+To determine the effect on overall counts of investments made once the Fed began its conservative monetary policy, I decided to check for the amount of investments which were made once the Fed began raising rates.
+
+| Pre-Hike Count | Post-Hike Count   | Difference (Delta) |
+| :-----: | :---: | :---: |
+| 367 | 136   | 237   |
