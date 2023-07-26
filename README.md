@@ -175,3 +175,6 @@ There has been a steady increase in tech funding over the past few years for Bay
 | Internet | 2 |
 
 Not surprisingly, tech related industries were the most active in the entire data set. 
+
+# Conclusion
+This project and data set was a great starting point for me as an exploratory data analysis project. I was able to complete complex queries to answer questions which my partner and I had come up with before starting the analysis. The data showed strong startup activity in the US as it continues to be the leader in innovation and new ideas. The data also showed what strict contractionary monetary policies can do to industries across the globe and how the VC industry is dependent on easier access to funds. Chinese companies made major strides over the past few years especially within the tech sector, and it will be interesting to see how US-China dynamics play out in the future. European companies also stepped up their activity as German and British companies became successful over time. It will be interesting to see what the global economy will look like once the post-COVID inflationary period is over and once a sense of normalcy returns to VC markets.  
