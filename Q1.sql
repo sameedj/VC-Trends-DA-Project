@@ -11,3 +11,30 @@ ROUND(AVG(valuation), 2) AS post_avg_hike_valuation
 FROM vc.data
 WHERE date BETWEEN '2022-03-01' AND '2022-09-30'
 ;
+
+-- Second answer to question
+
+SELECT
+(SELECT
+COUNT(valuation)
+FROM vc.data
+WHERE date BETWEEN '2021-07-01' AND '2022-02-30') AS pre_hike_count
+,
+(SELECT
+COUNT(valuation)
+FROM vc.data
+WHERE date BETWEEN '2022-03-01' AND '2022-09-30') AS post_hike_count
+,
+(SELECT
+COUNT(valuation)
+FROM vc.data
+WHERE date BETWEEN '2021-07-01' AND '2022-02-30')
+-
+(SELECT
+COUNT(valuation)
+FROM vc.data
+WHERE date BETWEEN '2022-03-01' AND '2022-09-30')
+AS delta
+FROM vc.data
+LIMIT 1
+;
